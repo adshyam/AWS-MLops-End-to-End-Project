@@ -1,1 +1,5 @@
-# AAI-540-Final-Project
+# AWS MLops End-to-End Project
+
+This project leverages AWS SageMaker for the training of machine learning models, emphasizing a robust workflow that integrates various AWS services to streamline operations. By utilizing AWS SageMaker, the project automates the model training process, which begins with preprocessing data stored in AWS S3 buckets. This preprocessed data is then used to train models efficiently, ensuring that the updated models and their data are subsequently stored back in S3, creating a seamless cycle of data handling and storage. The integration of AWS CloudWatch allows for meticulous monitoring of the model's performance and system operations, providing real-time logging and alerting capabilities that enhance the maintenance and scalability of the application.
+
+To complement the automated training and monitoring processes, the project incorporates a comprehensive CI/CD pipeline, facilitating continuous integration and deployment that are crucial for maintaining high development standards and ensuring reliable application updates. This setup not only optimizes the workflow but also simplifies the process of scaling and updating the system as needed. 
